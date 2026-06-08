@@ -1,2 +1,2 @@
-# Compatibility alias for projects that previously used data_scheme.py
+# for compatibility with data_schema.py
 from data_schema import *

@@ -1,3 +1,4 @@
+// import React + d3
 import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 
@@ -9,6 +10,7 @@ export default function ClusterScatter({ data, onSelect }) {
 
     if (!points.length) return;
 
+    // size/margin initializations
     const width = 760;
     const height = 520;
     const margin = {
@@ -25,16 +27,19 @@ export default function ClusterScatter({ data, onSelect }) {
     const xExtent = d3.extent(points, d => Number(d.x));
     const yExtent = d3.extent(points, d => Number(d.y));
 
+    // x-scale
     const x = d3.scaleLinear()
       .domain(xExtent)
       .nice()
       .range([margin.left, width - margin.right]);
 
+    // y-scale
     const y = d3.scaleLinear()
       .domain(yExtent)
       .nice()
       .range([height - margin.bottom, margin.top]);
 
+    // color scheme
     const color = d3.scaleOrdinal(d3.schemeTableau10);
 
     svg.append('g')
@@ -45,6 +50,7 @@ export default function ClusterScatter({ data, onSelect }) {
       .attr('transform', `translate(${margin.left},0)`)
       .call(d3.axisLeft(y));
 
+    // x-axis label
     svg.append('text')
       .attr('x', width / 2)
       .attr('y', height - 12)
@@ -52,6 +58,7 @@ export default function ClusterScatter({ data, onSelect }) {
       .attr('class', 'axis-label')
       .text('Projection Dimension 1');
 
+    // y-axis label
     svg.append('text')
       .attr('transform', 'rotate(-90)')
       .attr('x', -height / 2)
@@ -60,6 +67,7 @@ export default function ClusterScatter({ data, onSelect }) {
       .attr('class', 'axis-label')
       .text('Projection Dimension 2');
 
+    // data point appearance (circles)
     svg.append('g')
       .selectAll('circle')
       .data(points)
@@ -75,9 +83,11 @@ export default function ClusterScatter({ data, onSelect }) {
         `Cluster ${d.cluster}\n${d.occupation}, ${d.gender}, ${d.country}\nStress: ${d.stress}\nTreatment: ${d.treatment}`
       );
 
+    // cluster definition
     const clusters = [...new Set(points.map(d => d.cluster))]
       .sort((a, b) => Number(a) - Number(b));
 
+    // legend definition
     const legend = svg.append('g')
       .attr('transform', `translate(${margin.left},${margin.top})`);
 

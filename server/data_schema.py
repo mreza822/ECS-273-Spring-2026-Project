@@ -1,6 +1,8 @@
+# import libraries
 from pydantic import BaseModel
 from typing import Any, Dict, List, Optional
 
+# metadata structure for records
 class Metadata(BaseModel):
     total_records: int
     attributes: List[str]
@@ -8,6 +10,7 @@ class Metadata(BaseModel):
     occupations: int
     generated_at: Optional[str] = None
 
+# structure for aggregated data for overview barplot
 class OverviewResponse(BaseModel):
     metadata: Metadata
     treatment_by_occupation: List[Dict[str, Any]]
@@ -16,6 +19,7 @@ class OverviewResponse(BaseModel):
     care_by_country: List[Dict[str, Any]]
     treatment_by_gender: List[Dict[str, Any]]
 
+# structure for aggregated data for relationship plot (Sankey)
 class SankeyNode(BaseModel):
     name: str
     stage: str
@@ -30,6 +34,7 @@ class SankeyResponse(BaseModel):
     links: List[SankeyLink]
     total_records: int
 
+# structure for aggregated data for cluster scatterplot
 class ClusterPoint(BaseModel):
     x: float
     y: float

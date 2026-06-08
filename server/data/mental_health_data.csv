@@ -1,0 +1,81 @@
+Timestamp,Gender,Country,Occupation,self_employed,family_history,treatment,Days_Indoors,Growing_Stress,Changes_Habits,Mental_Health_History,Mood_Swings,Coping_Struggles,Work_Interest,Social_Weakness,mental_health_interview,care_options
+8/28/2014 10:18,Male,South Africa,Corporate,No,No,No,More than 2 months,No,No,Yes,High,No,Yes,Yes,No,No
+8/29/2014 8:59,Female,Canada,Business,Yes,Yes,Yes,1-14 days,Maybe,Yes,No,Medium,Yes,Maybe,Yes,Maybe,Yes
+8/28/2014 0:43,Male,United States,Housewife,No,Yes,Yes,Go out Every day,No,Maybe,No,High,No,Yes,Maybe,No,Yes
+8/27/2014 11:48,Male,United States,Housewife,No,Yes,Yes,31-60 days,Yes,No,Yes,High,Yes,Maybe,No,No,No
+8/28/2014 4:09,Male,United Kingdom,Corporate,No,Yes,Yes,1-14 days,No,Yes,No,Medium,Yes,No,Maybe,No,Not sure
+8/27/2014 14:10,Male,Canada,Student,No,No,No,More than 2 months,Yes,Yes,Maybe,High,No,No,Yes,No,Not sure
+8/29/2014 0:41,Male,United States,Corporate,No,No,Yes,31-60 days,No,Yes,Maybe,Medium,No,No,Yes,No,Yes
+8/27/2014 12:28,Male,United States,Corporate,No,No,Yes,More than 2 months,Yes,No,Maybe,Low,No,Maybe,No,No,No
+8/29/2014 11:54,Female,United States,Housewife,No,No,Yes,More than 2 months,Yes,Maybe,Yes,Medium,Yes,No,Yes,Maybe,No
+8/27/2014 11:43,Male,Canada,Business,No,Yes,Yes,Go out Every day,Maybe,Yes,No,Medium,Yes,No,Yes,No,Yes
+8/28/2014 17:33,Male,United States,Business,No,Yes,No,More than 2 months,Yes,Maybe,No,Medium,Yes,Maybe,Yes,Maybe,No
+8/28/2014 4:09,Male,United Kingdom,Housewife,No,Yes,Yes,15-30 days,No,No,No,Low,No,No,No,No,Not sure
+8/27/2014 12:53,Male,France,Corporate,No,No,No,1-14 days,No,Yes,No,Medium,Yes,No,Maybe,No,Yes
+8/28/2014 17:01,Male,United States,Student,No,No,No,15-30 days,Maybe,Maybe,Yes,Low,No,No,Yes,No,Yes
+2/24/2015 9:00,Male,United Kingdom,Others,No,Yes,Yes,31-60 days,No,No,Maybe,Low,No,Maybe,Yes,Yes,Yes
+8/28/2014 10:13,Male,United Kingdom,Others,No,No,No,1-14 days,No,No,Yes,Low,No,Maybe,No,No,No
+8/27/2014 20:13,Male,United States,Housewife,No,Yes,Yes,More than 2 months,Maybe,No,Maybe,Medium,No,No,Yes,No,Yes
+2/21/2015 9:30,Male,United Kingdom,Student,No,No,No,More than 2 months,Yes,Yes,Yes,Low,Yes,Maybe,No,No,Not sure
+8/27/2014 19:25,Male,United States,Student,No,Yes,Yes,15-30 days,Yes,No,Maybe,Medium,No,Yes,Maybe,No,No
+8/27/2014 15:22,Female,United States,Housewife,No,Yes,Yes,1-14 days,No,Yes,Maybe,Medium,No,No,Maybe,No,No
+8/27/2014 17:46,Male,Sweden,Student,No,No,No,31-60 days,Maybe,Maybe,No,Medium,Yes,Yes,Maybe,Maybe,No
+8/29/2014 7:28,Male,United States,Business,No,Yes,Yes,31-60 days,Yes,Maybe,No,Medium,No,Yes,Yes,No,Not sure
+8/27/2014 12:05,Male,United States,Housewife,No,No,No,More than 2 months,No,No,Maybe,High,Yes,No,Maybe,Maybe,Not sure
+8/27/2014 12:12,Male,United States,Housewife,No,No,No,Go out Every day,No,Yes,No,Medium,No,Yes,Maybe,No,Yes
+8/27/2014 14:10,Male,Canada,Others,No,No,No,15-30 days,No,Yes,No,High,No,Maybe,No,No,Not sure
+2/21/2015 17:19,Male,Netherlands,Corporate,No,No,No,15-30 days,Yes,Maybe,Yes,Medium,No,Maybe,Maybe,No,Not sure
+8/28/2014 17:07,Male,United States,Housewife,No,No,Yes,Go out Every day,No,Yes,Maybe,Medium,Yes,No,Maybe,No,Yes
+8/27/2014 11:29,Male,Canada,Housewife,,No,No,More than 2 months,Maybe,No,No,Medium,Yes,Maybe,No,Yes,No
+8/28/2014 1:41,Female,United States,Business,No,Yes,Yes,15-30 days,Maybe,Yes,No,High,Yes,Yes,Yes,No,No
+8/27/2014 15:23,Male,Germany,Corporate,No,Yes,Yes,31-60 days,Maybe,Yes,Yes,Medium,No,Yes,No,No,No
+8/27/2014 20:33,Female,United States,Business,No,No,No,31-60 days,Yes,No,Maybe,High,No,No,No,No,Not sure
+8/27/2014 17:04,Male,United States,Corporate,No,No,Yes,Go out Every day,Maybe,Maybe,Maybe,Low,Yes,Maybe,No,No,Not sure
+5/6/2015 10:14,Male,Australia,Others,No,Yes,Yes,Go out Every day,No,Yes,No,High,No,Maybe,Maybe,No,Yes
+8/27/2014 14:39,Male,United States,Student,No,No,No,Go out Every day,Maybe,Maybe,Yes,High,No,Maybe,Maybe,No,Not sure
+8/29/2014 12:48,Male,Greece,Business,No,No,No,More than 2 months,Yes,Maybe,Yes,Medium,Yes,No,Maybe,No,No
+8/27/2014 13:33,Male,South Africa,Housewife,No,No,No,Go out Every day,No,Yes,Maybe,Medium,Yes,No,Maybe,No,No
+8/27/2014 16:00,Male,United Kingdom,Business,No,No,No,15-30 days,Yes,Maybe,Yes,High,No,No,No,Maybe,No
+8/27/2014 14:23,Male,United States,Student,No,No,No,Go out Every day,Yes,No,Maybe,High,Yes,Maybe,Yes,No,Not sure
+8/29/2014 17:35,Male,United States,Others,No,Yes,Yes,31-60 days,Maybe,Maybe,Maybe,Medium,No,No,No,No,Yes
+8/29/2014 11:40,Male,United States,Corporate,No,Yes,Yes,31-60 days,No,No,Yes,High,Yes,No,No,No,Yes
+8/28/2014 17:16,Male,United States,Corporate,No,No,No,1-14 days,No,Maybe,Yes,Medium,Yes,No,Yes,No,Not sure
+2/24/2015 9:00,Male,United Kingdom,Corporate,No,Yes,Yes,15-30 days,Yes,No,No,High,Yes,Maybe,No,Yes,Yes
+8/27/2014 11:43,Male,United Kingdom,Student,No,No,No,1-14 days,No,Yes,No,High,Yes,Maybe,Maybe,Maybe,Not sure
+9/1/2014 8:23,Male,United Kingdom,Housewife,No,No,Yes,1-14 days,Yes,No,No,Low,No,Maybe,Yes,No,No
+8/28/2014 1:41,Female,United States,Student,No,Yes,Yes,More than 2 months,Yes,Maybe,Maybe,Medium,Yes,Yes,Maybe,No,No
+8/30/2014 19:35,Male,United Kingdom,Others,No,No,Yes,15-30 days,Yes,Yes,Yes,Low,Yes,Yes,No,No,No
+8/28/2014 14:31,Female,United States,Others,No,No,No,More than 2 months,No,Yes,Maybe,Low,No,Maybe,Maybe,No,Not sure
+8/30/2014 6:48,Male,India,Student,No,No,No,31-60 days,Maybe,No,Yes,Low,Yes,Maybe,Yes,Maybe,No
+2/21/2015 9:30,Male,United Kingdom,Corporate,No,No,No,Go out Every day,Maybe,Yes,No,High,No,Maybe,No,No,Not sure
+8/28/2014 11:44,Male,Ireland,Corporate,No,Yes,Yes,15-30 days,Yes,Yes,No,Low,Yes,No,Maybe,No,No
+8/29/2014 18:33,Male,United States,Others,No,No,Yes,15-30 days,Yes,Yes,Yes,Medium,No,Yes,No,No,No
+8/28/2014 12:42,Male,United States,Student,No,Yes,Yes,More than 2 months,No,Yes,Yes,High,No,Maybe,No,No,Yes
+8/27/2014 13:46,Male,Canada,Corporate,No,No,No,31-60 days,Yes,Yes,Maybe,High,No,Yes,Maybe,No,No
+8/27/2014 16:21,Male,Italy,Housewife,No,No,No,1-14 days,No,No,Maybe,Medium,No,Yes,No,No,No
+2/21/2015 9:22,Male,United States,Business,No,No,Yes,More than 2 months,Yes,Maybe,No,Medium,Yes,Maybe,Yes,No,Yes
+8/29/2014 11:23,Female,Canada,Others,No,Yes,Yes,Go out Every day,Yes,Yes,Maybe,Medium,Yes,Yes,Yes,No,Not sure
+8/27/2014 23:56,Male,United States,Business,Yes,No,No,1-14 days,Yes,Yes,No,Low,No,Maybe,Yes,Maybe,Yes
+8/27/2014 12:37,Male,United States,Student,No,No,Yes,15-30 days,No,Maybe,Maybe,Low,Yes,Yes,Yes,No,Not sure
+8/27/2014 12:57,Female,United States,Business,No,Yes,Yes,More than 2 months,No,Maybe,Maybe,Low,No,No,Yes,No,No
+8/27/2014 14:57,Male,United States,Corporate,No,No,Yes,More than 2 months,Yes,Maybe,Yes,Medium,Yes,Yes,Maybe,No,No
+4/11/2015 14:35,Male,Poland,Others,Yes,No,Yes,More than 2 months,Maybe,No,No,Medium,No,No,Yes,No,No
+8/28/2014 12:08,Male,Canada,Student,No,No,Yes,Go out Every day,No,Yes,Yes,Medium,No,No,Maybe,No,Yes
+8/29/2014 14:51,Female,United States,Housewife,No,Yes,Yes,More than 2 months,No,No,Yes,High,No,Maybe,No,No,Yes
+8/29/2014 9:35,Male,United Kingdom,Others,No,Yes,Yes,Go out Every day,No,No,No,Medium,No,No,Yes,No,Yes
+8/27/2014 15:23,Male,Canada,Corporate,No,No,Yes,More than 2 months,Yes,Maybe,Yes,Medium,Yes,Yes,Maybe,No,Not sure
+8/27/2014 16:34,Male,Germany,Student,No,No,No,Go out Every day,Yes,No,Maybe,High,Yes,Maybe,Yes,No,Not sure
+8/28/2014 17:19,Male,United States,Others,No,No,No,15-30 days,No,Yes,Yes,Low,Yes,Maybe,Yes,No,No
+8/28/2014 9:57,Male,United States,Others,No,No,No,Go out Every day,Maybe,Maybe,Yes,High,Yes,Yes,No,No,No
+2/21/2015 10:00,Male,United States,Corporate,No,Yes,Yes,15-30 days,No,Yes,No,High,No,Maybe,Maybe,No,No
+9/26/2015 1:07,Male,United States,Business,No,Yes,Yes,31-60 days,No,No,No,Low,Yes,No,No,No,Yes
+8/28/2014 11:15,Male,Canada,Corporate,No,No,Yes,1-14 days,No,Yes,No,Medium,Yes,No,Maybe,No,Not sure
+8/27/2014 13:08,Male,Germany,Housewife,Yes,No,Yes,Go out Every day,No,No,Yes,Medium,No,No,Maybe,Maybe,Yes
+8/29/2014 11:23,Female,Canada,Corporate,No,Yes,Yes,15-30 days,Yes,No,Yes,Medium,Yes,No,Maybe,No,Not sure
+8/27/2014 14:34,Male,United States,Student,No,No,No,31-60 days,Maybe,Maybe,No,Medium,Yes,Yes,Maybe,No,No
+8/27/2014 20:48,Female,United States,Housewife,No,Yes,Yes,15-30 days,Yes,Yes,No,Low,Yes,No,Maybe,No,Yes
+8/29/2014 12:08,Male,United States,Corporate,No,No,Yes,1-14 days,Yes,Maybe,Yes,Low,No,No,Yes,No,No
+8/27/2014 17:32,Female,United States,Others,No,Yes,Yes,15-30 days,Yes,Maybe,Yes,High,No,Maybe,Yes,No,Yes
+8/28/2014 17:36,Male,United States,Housewife,No,Yes,No,15-30 days,No,No,No,High,Yes,Yes,No,Maybe,No
+8/27/2014 17:10,Male,United Kingdom,Housewife,No,Yes,Yes,More than 2 months,Maybe,No,No,Medium,Yes,Maybe,No,No,Yes
+8/29/2014 3:08,Male,United States,Student,No,No,Yes,1-14 days,Maybe,Yes,Maybe,High,Yes,No,No,No,Not sure

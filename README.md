@@ -39,24 +39,6 @@ Navigate to the backend directory:
 cd server
 ```
 
-Create and activate a virtual environment:
-
-```bash
-python -m venv venv
-```
-
-Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Mac/Linux:
-
-```bash
-source venv/bin/activate
-```
-
 Install dependencies:
 
 ```bash
@@ -82,7 +64,25 @@ mongod
 
 Ensure the MongoDB server is running before launching the backend.
 
+Another alternative is through the MongoDB Compass app. First, make sure MongoDB is active on your device:
+
+```bash
+Get-Service MongoDB
+```
+
+If it says "Running", then open the MongoDB Compass app connect to `localhost:27017`.
+
 ---
+
+## Importing the Data
+
+Make sure you are in the `server` directory. While the MongoDB server is running, run this command:
+
+```bash
+python import_data.py
+```
+
+This command executes the according file and loads the file into the MongoDB databse. This will appear in the Compass app.
 
 ## Execution
 
@@ -142,5 +142,3 @@ Due to dataset size, the original raw data is not included directly in the repos
 * MongoDB
 * Python
 * Scikit-learn (PCA and K-Means)
-
-Mental Health Visual Analytics Dashboard

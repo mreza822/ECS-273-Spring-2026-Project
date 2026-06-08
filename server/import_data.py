@@ -1,11 +1,14 @@
+# import libraries
 import os
 import asyncio
 import pandas as pd
 from motor.motor_asyncio import AsyncIOMotorClient
 
+# client initialization
 client = AsyncIOMotorClient("mongodb://localhost:27017")
 db = client.mental_health_database
 
+# four different subfolders
 records_collection = db.get_collection("mental_health_records")
 overview_collection = db.get_collection("overview")
 sankey_collection = db.get_collection("sankey")
@@ -31,6 +34,7 @@ async def import_data():
     print(f"Loaded {len(df)} rows")
     print(f"Columns: {list(df.columns)}")
 
+    # renaming columns for importing data
     gender_col = get_col(df, ["Gender", "gender"])
     occupation_col = get_col(df, ["Occupation", "occupation"])
     country_col = get_col(df, ["Country", "country"])
@@ -39,10 +43,7 @@ async def import_data():
     family_col = get_col(df, ["family_history", "Family_History", "Family History"])
     coping_col = get_col(df, ["Coping_Struggles", "Coping Struggles", "coping_struggles"])
 
-    # --------------------------------------------------
-    # Raw records
-    # --------------------------------------------------
-
+    # upload raw data (records)
     await records_collection.delete_many({})
 
     records = df.to_dict("records")
@@ -52,10 +53,7 @@ async def import_data():
         await records_collection.insert_many(records[i:i + chunk_size])
         print(f"Inserted raw records: {min(i + chunk_size, len(records))}/{len(records)}")
 
-    # --------------------------------------------------
-    # Overview data
-    # --------------------------------------------------
-
+    # data for overview plot
     await overview_collection.delete_many({})
 
     occupation_stress = (
@@ -88,10 +86,7 @@ async def import_data():
 
     print("Overview collection imported.")
 
-    # --------------------------------------------------
-    # Sankey data
-    # --------------------------------------------------
-
+    # data for Sankey plot
     await sankey_collection.delete_many({})
 
     sankey_df = (
@@ -139,12 +134,7 @@ async def import_data():
 
     print("Sankey collection imported.")
 
-    # --------------------------------------------------
-    # Cluster placeholder data
-    # --------------------------------------------------
-    # This creates usable cluster data for the frontend now.
-    # Later we can replace it with real PCA/K-Means output.
-
+    # data for cluster plot (no K-means/PCA yet)
     await clusters_collection.delete_many({})
 
     sample = df.sample(n=min(3000, len(df)), random_state=42).copy()

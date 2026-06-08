@@ -27,8 +27,8 @@ The dashboard supports dynamic filtering by gender, occupation, and country, all
 ### Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd mental-health-visual-analytics
+git clone https://github.com/mreza822/ECS-273-Spring-2026-Project
+cd mental_health
 ```
 
 ### Backend Setup

@@ -128,7 +128,9 @@ http://localhost:5173
 
 The project uses a large-scale mental health survey dataset containing approximately 292,000 responses and demographic, behavioral, and treatment-related variables.
 
-Due to dataset size, the original raw data is not included directly in the repository. Any preprocessing scripts used to clean, encode, and prepare the data are included in the project source code.
+Due to dataset size, the original raw data is not included directly in the repository. A smaller subset of 80 randomly sampled records are included in the repository for demonstration purposes. Any preprocessing scripts used to clean, encode, and prepare the data are included in the project source code.
+
+To view the dashboard with the true, large dataset, download the dataset from https://www.kaggle.com/datasets/bhavikjikadara/mental-health-dataset. There is an option to download the data as a ZIP file. Extract the ZIP file to the `server/data` directory, and remove the smaller, simplifed dataset. Make sure to rename the just downloaded dataset as `mental_health_dataset.csv`, or else the code will not run, as this is the path name called upon across the files.
 
 ---
 

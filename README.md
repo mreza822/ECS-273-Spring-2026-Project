@@ -1,18 +1,18 @@
-# Mental Health Analytics Dashboard
+# Mental Health Visual Analytics Dashboard
 
 ## Description
 
-This project is an interactive mental health analytics dashboard designed to help users explore trends and patterns in mental health survey data. The application combines a React frontend, D3 visualizations, and a FastAPI backend to provide an interactive environment for filtering, analyzing, and visualizing mental health-related information.
+This project presents an interactive visual analytics dashboard for exploring large-scale mental health survey data. The system combines visual exploration techniques with computational analysis to help users identify patterns in treatment-seeking behavior, stress levels, coping struggles, and other mental health indicators.
 
-The dashboard allows users to:
+The dashboard was developed using a full-stack architecture consisting of a React frontend, FastAPI backend, and MongoDB database. Interactive visualizations were implemented using D3.js and Recharts.
 
-* Explore demographic characteristics of survey respondents.
-* Analyze relationships between mental health indicators and workplace factors.
-* Filter data by demographic and survey attributes.
-* Interact with visualizations through zooming, filtering, and selection.
-* View detailed statistics and trends through multiple coordinated charts.
+The application contains three primary analysis views:
 
-The frontend is built using React and D3.js, while the backend is implemented using FastAPI. Data is stored in CSV format and served through API endpoints that support interactive analysis.
+* **Overview Analysis:** Interactive bar charts for exploring treatment-seeking behavior, stress levels, mood swings, and care-option awareness across demographic groups.
+* **Relationship Analysis:** A Sankey diagram showing pathways among family history, stress, coping struggles, and treatment-seeking behavior.
+* **Cluster Analysis:** PCA-based projections and K-Means clustering used to identify behavioral patterns and respondent groups within the survey population.
+
+The dashboard supports dynamic filtering by gender, occupation, and country, allowing users to explore specific subpopulations and compare mental health trends across demographic groups.
 
 ---
 
@@ -20,15 +20,15 @@ The frontend is built using React and D3.js, while the backend is implemented us
 
 ### Prerequisites
 
-* Python 3.11+
-* Node.js 18+
-* npm
+* Node.js (v18 or newer)
+* Python 3.10+
+* MongoDB Community Server
 
 ### Clone the Repository
 
 ```bash
 git clone <repository-url>
-cd <repository-name>
+cd mental-health-visual-analytics
 ```
 
 ### Backend Setup
@@ -36,7 +36,7 @@ cd <repository-name>
 Navigate to the backend directory:
 
 ```bash
-cd backend
+cd server
 ```
 
 Create and activate a virtual environment:
@@ -51,7 +51,7 @@ Windows:
 venv\Scripts\activate
 ```
 
-Linux/macOS:
+Mac/Linux:
 
 ```bash
 source venv/bin/activate
@@ -65,17 +65,22 @@ pip install -r requirements.txt
 
 ### Frontend Setup
 
-Open a second terminal and navigate to the frontend directory:
+Navigate to the client directory:
 
 ```bash
-cd frontend
-```
-
-Install dependencies:
-
-```bash
+cd client
 npm install
 ```
+
+### MongoDB
+
+Start MongoDB locally:
+
+```bash
+mongod
+```
+
+Ensure the MongoDB server is running before launching the backend.
 
 ---
 
@@ -83,13 +88,13 @@ npm install
 
 ### Start the Backend
 
-From the backend directory:
+From the server directory:
 
 ```bash
 uvicorn main:app --reload
 ```
 
-The API will be available at:
+The API should be available at:
 
 ```text
 http://localhost:8000
@@ -97,13 +102,13 @@ http://localhost:8000
 
 ### Start the Frontend
 
-From the frontend directory:
+From the client directory:
 
 ```bash
 npm run dev
 ```
 
-The application will be available at:
+The dashboard should be available at:
 
 ```text
 http://localhost:5173
@@ -111,22 +116,31 @@ http://localhost:5173
 
 ### Using the Dashboard
 
-1. Open the frontend URL in a web browser.
-2. Explore the available visualizations.
-3. Apply filters to focus on specific demographic groups.
-4. Interact with charts to view detailed information.
-5. Analyze trends and relationships within the mental health dataset.
+1. Open the dashboard in a web browser.
+2. Explore the **Overview** tab to view demographic trends.
+3. Use the **Relationships** tab to investigate mental health pathways through the Sankey diagram.
+4. Use the **Clusters** tab to explore PCA projections and K-Means cluster results.
+5. Apply filters for gender, occupation, and country to investigate specific populations.
 
 ---
 
 ## Dataset
 
-The project uses a mental health survey dataset. If the dataset is not included in the repository due to size limitations, download it from the original source and place it in the designated data directory before running the application.
+The project uses a large-scale mental health survey dataset containing approximately 292,000 responses and demographic, behavioral, and treatment-related variables.
+
+Due to dataset size, the original raw data is not included directly in the repository. Any preprocessing scripts used to clean, encode, and prepare the data are included in the project source code.
 
 ---
 
-## Known Issues
+## Technologies Used
 
-* Initial loading may take several seconds depending on dataset size.
-* Some visualizations may require a modern Chromium-based browser for best performance.
-* Backend and frontend must both be running for full functionality.
+* React
+* Vite
+* D3.js
+* Recharts
+* FastAPI
+* MongoDB
+* Python
+* Scikit-learn (PCA and K-Means)
+
+Mental Health Visual Analytics Dashboard
